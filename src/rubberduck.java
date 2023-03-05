@@ -1,21 +1,16 @@
-public class rubberduck extends duck{
+public class rubberduck extends duck implements quackable{
     @Override
     public void display() {
-        System.out.println("Rubber Duck");
+        System.out.println("Duck's name : Rubber Duck");
     }
 
     @Override
-    public boolean swim() {
-        return true;
+    public void swim() {
+        System.out.println("The ability to swim : cannot swim");
     }
 
     @Override
     public void quack() {
-        System.out.println("the duck is squeaking");
+        System.out.println("The ability of quack : can squeak");
     }
-
-    @Override
-    public void fly() {
-        System.out.println("cannot fly");
     }
-}

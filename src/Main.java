@@ -12,7 +12,6 @@ public class Main {
         b.display();
         b.swim();
         b.quack();
-        b.fly();
         System.out.println();
 
 
@@ -21,5 +20,14 @@ public class Main {
         c.swim();
         c.quack();
         c.fly();
+        System.out.println();
+
+
+        decoyduck d = new decoyduck();
+        d.display();
+        d.swim();
+        System.out.println();
+
+
     }
 }
